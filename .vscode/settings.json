@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "lexer.h": "c",
+    "parser.h": "c"
+  }
+}
