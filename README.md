@@ -1,4 +1,4 @@
-# Parse Tree Visualizer
+# Parse Tree Generator
 
 A C++ program that parses C++ code and generates a parse tree visualization along with execution traces and symbol table information.
 
