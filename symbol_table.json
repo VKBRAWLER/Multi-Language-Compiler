@@ -1,0 +1,36 @@
+[
+    {
+        "name": "result",
+        "scope": "square",
+        "type": "int"
+    },
+    {
+        "name": "result",
+        "scope": "square",
+        "type": "double"
+    },
+    {
+        "name": "num",
+        "scope": "main",
+        "type": "int",
+        "value": 4
+    },
+    {
+        "name": "pi",
+        "scope": "main",
+        "type": "double",
+        "value": 3
+    },
+    {
+        "name": "sum",
+        "scope": "main",
+        "type": "int",
+        "value": 0
+    },
+    {
+        "name": "i",
+        "scope": "main",
+        "type": "int",
+        "value": 1
+    }
+]

@@ -1,0 +1,100 @@
+/* style.css - New Stylish Dark Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #121212;  /* Dark charcoal */
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#tree {
+    width: 95%;
+    height: 700px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #1e1e2f 0%, #2a2a3f 100%);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 150, 255, 0.25);
+    overflow: auto;
+    border: 2px solid #0af;
+    padding: 20px;
+}
+
+/* Nodes styling */
+.node circle {
+    fill: #0af;
+    stroke: #04a;
+    stroke-width: 2.5px;
+    filter: drop-shadow(0 0 8px rgba(0, 170, 255, 0.8));
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.node circle:hover {
+    fill: #2af;
+    stroke: #0ff;
+    stroke-width: 3.5px;
+    filter: drop-shadow(0 0 14px rgba(0, 255, 255, 0.9));
+}
+
+/* Highlighted node */
+.node circle.highlighted {
+    fill: #ff4081;
+    stroke: #ff0054 !important;
+    stroke-width: 4px !important;
+    filter: drop-shadow(0 0 18px #ff4081);
+}
+
+/* Text styling */
+.node text {
+    font-weight: 600;
+    font-size: 14px;
+    fill: #d0e8ff;
+    font-family: 'Poppins', Arial, sans-serif;
+    user-select: none;
+    pointer-events: none;
+    text-shadow: 0 0 3px rgba(0, 150, 255, 0.6);
+}
+
+/* Links styling */
+.link {
+    fill: none;
+    stroke: #0af;
+    stroke-opacity: 0.8;
+    stroke-width: 2.5px;
+    filter: drop-shadow(0 0 6px rgba(0, 170, 255, 0.7));
+    transition: stroke 0.3s ease;
+}
+
+.link:hover {
+    stroke: #2af;
+    stroke-opacity: 1;
+    stroke-width: 3.5px;
+}
+
+/* Scrollbar styling for #tree container */
+#tree::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+#tree::-webkit-scrollbar-track {
+    background: #222233;
+    border-radius: 8px;
+}
+
+#tree::-webkit-scrollbar-thumb {
+    background: #0af;
+    border-radius: 8px;
+}
+
+#tree::-webkit-scrollbar-thumb:hover {
+    background: #2af;
+}

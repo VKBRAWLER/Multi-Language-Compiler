@@ -1,0 +1,81 @@
+[
+    {
+        "action": "call",
+        "function": " main"
+    },
+    {
+        "action": "vardecl",
+        "variable": "num"
+    },
+    {
+        "action": "vardecl",
+        "variable": "pi"
+    },
+    {
+        "action": "cout"
+    },
+    {
+        "action": "cout"
+    },
+    {
+        "action": "vardecl",
+        "variable": "sum"
+    },
+    {
+        "action": "for_enter"
+    },
+    {
+        "action": "vardecl",
+        "variable": "i"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "assign",
+        "variable": "sum"
+    },
+    {
+        "action": "cout"
+    },
+    {
+        "action": "return_stmt"
+    },
+    {
+        "action": "return",
+        "function": " main"
+    }
+]
